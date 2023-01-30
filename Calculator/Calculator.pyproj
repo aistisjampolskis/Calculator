@@ -32,7 +32,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="License.txt" />
     <Content Include="MANIFEST.in">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="pyproject.toml">
       <SubType>Code</SubType>
     </Content>
     <Content Include="README.md">
